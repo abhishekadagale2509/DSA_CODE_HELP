@@ -1,43 +1,29 @@
-/*#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int n;
-    cin>>n;
-    int i=1;
-    while(i<=n){
-        int j=1;
-        while(j<=n){
-            cout<<"*";
-            j=j+1;
-
-        }cout<<endl;
-        i=i+1;
-
-    }
-}*/
-/*4
-****
-****
-****
-*****/
-#include<iostream>
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-    
+    int no;
+    cin >> no;
     int i = 1;
-    while (i <= n) {
+
+    while (i <= no)
+    {
         int j = 1;
-        while (j <= n) {
-            cout << "*";  // Print star in the same row
+        while (j <= no)
+        {
+            cout << i;
             j++;
         }
-        cout << endl;  // Move to the next line after finishing the row
+        cout << endl;
+
         i++;
     }
-
-    return 0;
 }
+/*/tmp/PysKEAN4tC.o
+5
+11111
+22222
+33333
+44444
+55555
+*/

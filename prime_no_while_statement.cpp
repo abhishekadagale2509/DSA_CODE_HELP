@@ -13,7 +13,7 @@ int main()
         }
         else
         {
-            cout << "no is positive";
+            cout << "no is prime ";
         }
         i = i + 1;
     }
@@ -49,3 +49,36 @@ int main() {
 
     return 0;
 }
+/*#include <iostream>
+#include <cmath> // for sqrt
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+
+    bool isPrime = true;
+
+    if (n <= 1) {
+        isPrime = false; // 0 and 1 are not prime
+    } else {
+        int i = 2;
+        while (i <= sqrt(n)) {
+            if (n % i == 0) {
+                isPrime = false;
+                break;
+            }
+            i++;
+        }
+    }
+
+    if (isPrime) {
+        cout << n << " is prime" << endl;
+    } else {
+        cout << n << " is not prime" << endl;
+    }
+
+    return 0;
+}
+*/

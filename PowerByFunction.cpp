@@ -15,4 +15,4 @@ int main()
     cin>>a>>b;
     int answer =power(a,b);
     cout<<"answer is "<<answer;
-}
+} 
